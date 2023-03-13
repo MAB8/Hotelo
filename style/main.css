@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.hide{
+    display: none;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans";
+    box-sizing: border-box;
+}
+
+a {
+    font-style: none;
+    text-decoration: none;
+}
+
+body {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+ul li {
+    list-style: none;
+    color: #000;
+}
+
+header {
+    margin: 40px 80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+
+#logo {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+#logo img {
+    width: 32px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+#logo {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#headerMenu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+#headerMenu ul li {
+    cursor: pointer;
+}
+
+.signIn {
+    background: fff;
+    color: #100F2E;
+    border: 1px solid #999999;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 35px;
+    padding: 10px 24px;
+    cursor: pointer;
+}
+
+/* ================hero section============== */
+
+.hero {
+    display: flex;
+    margin-top: 100px;
+}
+
+.heroText {
+    flex: 1;
+    width: 40%;
+}
+
+.heroText h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 80px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.heroText p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #555555;
+}
+
+.heroInput {
+    width: 40%;
+    background: #FFFFFF;
+    box-shadow: 0px 22px 38px rgba(0, 34, 19, 0.04);
+    border-radius: 20px;
+}
+
+.heroInput p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #222222;
+}
+
+.heroInput .firstStep {
+    display: flex;
+    align-items: flex-start;
+    padding: 16px;
+    background: #FAFAFA;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+
+.heroInput .firstStep p {
+    background: #FAFAFA;
+    border-radius: 8px;
+    padding: 12px 46px 12px 23px;
+}
+
+.heroInput .secondStep {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background: #FAFAFA;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.heroInput .secondStep p {
+    flex: 1;
+}
+
+
+.heroInput .secondStep img {
+    margin-left: 20px;
+}
+
+.heroInput .secondStep .searchLocation {
+    background: #3771C8;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 0;
+}
+
+/* ==============imageSection */
+
+.imageSection {
+    margin: 40px 0 120px;
+    border-radius: 16px;
+    display: grid;
+    height: 65vh;
+    width: 100%;
+    grid-template:
+        "first first first  second"
+        "first first first  second"
+        "first first first third"
+        "first first first third";
+    gap: 8px;
+}
+
+.first {
+    background-image: url(../Hoteloimg/outside\ of\ hotel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: first;
+    border-radius: 16px;
+    display: flex;
+    position: relative;
+}
+
+.first h2 {
+    position: absolute;
+    width: 100%;
+    left: 14.38%;
+    right: 39.69%;
+    top: 87.44%;
+    bottom: 10%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+
+}
+
+.second {
+    background-image: url(../Hoteloimg/pool\ of\ hotel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: second;
+    border-radius: 16px;
+
+}
+
+.third {
+    background-image: url(../Hoteloimg/badroom\ of\ hotel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: third;
+    border-radius: 16px;
+
+}
+
+/* =================FacilitiesSection section */
+
+.FacilitiesSection h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.aboutFacilities {
+    display: flex;
+    width: 100%;
+}
+
+.aboutFacilities p {
+    margin-top: 12px;
+    width: 60%;
+    flex: 1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+}
+
+.aboutFacilities a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3771C8;
+}
+
+
+.services {
+    margin: 40px 0 120px;
+    display: flex;
+    gap: 11px;
+}
+
+.services .serviceCard {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    height: 320px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services .serviceCard img {
+    margin-bottom: 40px;
+}
+
+.services .serviceCard h2 {
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #222222;
+}
+
+.services .serviceCard p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #666666;
+}
+
+
+/* =====================competitors section */
+
+
+.competitors {
+    display: flex;
+    gap: 30px;
+}
+
+
+.competitors .textSection {
+    display: flex;
+
+    /* align-items: center; */
+    flex-direction: column;
+
+}
+
+.competitors .textSection h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #222222;
+
+}
+
+.competitors .textSection p {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+}
+
+.competitors .textSection .ratingSection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.competitors .textSection .ratingSection h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 46px;
+    color: #222222;
+}
+
+.competitors .textSection .ratingSection p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #222222;
+}
+
+.competitors .textSection a {
+    color: #FFFFFF;
+    background: #3771C8;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 170px;
+    padding: 16px 32px;
+    margin-top: 60px;
+}
+
+.competitorsNames {
+    margin-top: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* ================comment Section */
+
+.comment {
+    display: flex;
+    border-radius: 12px;
+    margin: 136px 0 120px;
+    background: #F9D15C;
+    gap: 35px;
+}
+
+.comment .imgSection img {
+    width: 640px;
+    height: 100%;
+}
+
+
+.comment .commentSection img {
+    border-radius: 97px;
+}
+
+.comment .commentSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comment .commentSection h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #555555;
+
+}
+
+.comment .commentSection p {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+
+
+/* =====================BestQualityHotelsSection  */
+.BestQualityHotelsSection h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.BestQualityHotelsSection p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    margin: 20px 0;
+
+}
+
+.BestQualityHotelsSection .starSection {
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 20px 0 40px; */
+    align-items: center;
+}
+
+.BestQualityHotelsSection .starSection a {
+    flex: end;
+}
+
+.BestQualityHotelsSection .starCards {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.BestQualityHotelsSection .starCards p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.BestQualityHotelsSection .starCard:hover {
+    border: 2px solid #222222;
+    /* background: rgb(161, 157, 157); */
+    border-radius: 8px;
+    margin: 0;
+
+}
+
+
+.BestQualityHotelsSection .starCard p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    padding: 8px 28px;
+    cursor: pointer;
+}
+
+.hotelsCards {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotelsCard {
+    width: 30%;
+    border: 0.5px solid #fff;
+    padding: 25px 0;
+    /* background: #E5E5E5; */
+
+}
+
+.hotelsCard li h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #222222;
+}
+
+.hotelsCard li p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+}
+
+
+
+
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.price p {
+    color: #555555;
+}
+
+.price p b {
+    color: #3771C8;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.price a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    background: #000;
+    background: #3771C8;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* =============================subscribeSection section */
+.subscribeSection {
+    background: #e9eaec;
+    border-radius: 16px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+margin-top: 120px;
+}
+
+.textsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin-left: 35px;
+}
+
+.textsection h2 {
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #222222;
+}
+
+.textsection p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    margin-bottom: 92px;
+
+}
+
+.insideOfInput {
+    display: flex;
+    justify-content: space-between;
+    width: 486px;
+    border-radius: 50px;
+    background: #fff;
+
+}
+
+.insideOfInput input {
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 50px;
+    margin: 0 25px;
+}
+
+.insideOfInput button {
+    padding: 16px 22px;
+    background: #3771C8;
+    border-radius: 50px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.insideOfInput button:active {
+    /* padding: 15px 21px; */
+    background: #3771c8d5;
+
+
+}
+
+/* =============================footer section */
+footer {
+    /* height: 500px; */
+    margin: 120px auto 60px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+
+.footercard {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    /* cursor: pointer; */
+    width: 25%;
+}
+
+
+.footercard li {
+    margin-bottom: 16px;
+}
+
+.footercard:first-child {
+    margin-right: 160px;
+}
+
+.links i {
+    padding-right: 36px;
+    cursor: pointer;
+}
